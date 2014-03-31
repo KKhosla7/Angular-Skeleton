@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Angular App</title>
+    <link rel="stylesheet" href="resources/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+</head>
+<body ng-app>
+
+<h3 class="text-center text-muted">Welcome to AngularJS</h3>
+
+
+<div class="container">
+
+    <div class="form-group col-sm-4">
+        <input type="text" class="form-control" ng-model="name" /> <br/>
+        {{ name }}
+    </div>
+
+</div>
+
+
+<script src="resources/bower_components/angular/angular.min.js"></script>
+<script src="resources/bower_components/angular-route/angular-route.min.js"></script>
+</body>
+</html>
